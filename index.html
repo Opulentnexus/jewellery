@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXORA Jewellery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">LUXORA</div>
+    
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-btn">☰</div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Timeless Luxury</h1>
+        <p>Crafted Jewellery for Elegant Souls</p>
+        <button onclick="document.getElementById('collection').scrollIntoView({ behavior: 'smooth' })">
+    Explore Collection
+</button>
+    </div>
+</section>
+
+<section class="metal-rates">
+    <div class="rates-container">
+        <h2>Today’s Metal Rates</h2>
+        <p class="subtitle">Updated as per today’s bullion market</p>
+
+        <div class="rate-cards">
+
+            <!-- Gold -->
+            <div class="rate-card gold">
+                <h3>Gold Rate</h3>
+                <p class="purity">24K · 1 Gram</p>
+                <div class="price">₹ <span class="gold-price">6120</span></div>
+            </div>
+
+            <!-- Silver -->
+            <div class="rate-card silver">
+                <h3>Silver Rate</h3>
+                <p class="purity">999 · 1 Gram</p>
+                <div class="price">₹ <span class="silver-price">78</span></div>
+            </div>
+
+        </div>
+
+        <p class="note">*Rates are subject to change without prior notice.</p>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="collection" id="collection">
+    <h2>Our Collection</h2>
+    <div class="cards">
+        <div class="card" onclick="showSection('rings-section')">
+            <img src="gold.jpg" />
+            <h3>Gold Rings</h3>
+            <p>Click to view</p>
+        </div>
+
+        <div class="card" onclick="showSection('necklaces-section')">
+            <img src="gold.jpg" />
+            <h3>Necklaces</h3>
+            <p>Click to view</p>
+        </div>
+
+        <div class="card" onclick="showSection('bracelets-section')">
+            <img src="gold.jpg" />
+            <h3>Bracelets</h3>
+            <p>Click to view</p>
+        </div>
+    </div>
+</section>
+
+<div id="product-details-container">
+    
+    <section id="rings-section" class="hidden-section">
+     
+        <h2>Gold Rings Collection</h2>
+        <div class="product-grid">
+            <div class="item-card">
+                <img src="gold.jpg" alt="Diamond Band">
+                <h4>Classic Diamond Band</h4>
+                <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Classic Diamond Band" class="whatsapp-btn">Get Details</a>
+            </div>
+
+            <div class="item-card">
+            <img src="gold.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="gold.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="gold.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+            </div>
+    </section>
+
+    <section id="necklaces-section" class="hidden-section">
+        
+        <h2>Necklaces Collection</h2>
+        <div class="product-grid">
+            <div class="item-card">
+                <img src="neck1.jpg" alt="Gold Choker">
+                <h4>Traditional Gold Choker</h4>
+                <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Gold Choker" class="whatsapp-btn">Get Details</a>
+            </div>
+
+            <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="bracelets-section" class="hidden-section">
+   
+        <h2>Bracelets Collection</h2>
+        <div class="product-grid">
+            <div class="item-card">
+                <img src="bracelet1.jpg" alt="Tennis Bracelet">
+                <h4>Diamond Tennis Bracelet</h4>
+                <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Tennis Bracelet" class="whatsapp-btn">Get Details</a>
+            </div>
+
+            <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="item-card">
+            <img src="ring2.jpg" alt="Gold Signet Ring">
+            <h4>Vintage Gold Signet</h4>
+            <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        </div>
+    </section>
+</div>
+
+
+
+<section class="top-selling">
+    <h2>Top Selling Products</h2>
+
+    <div class="top-selling-track">
+        <div class="top-card">
+            <img src="gold.jpg" alt="Gold Ring">
+            <h4>Classic Gold Ring</h4>
+               <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="top-card">
+            <img src="gold.jpg" alt="Gold Necklace">
+            <h4>Elegant Necklace</h4>
+               <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="top-card">
+            <img src="gold.jpg" alt="Gold Bracelet">
+            <h4>Diamond Bracelet</h4>
+               <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+        <div class="top-card">
+            <img src="gold.jpg" alt="Gold Earrings">
+            <h4>Gold Earrings</h4>
+               <a href="https://wa.me/YOURNUMBER?text=Hi, I am interested in the Vintage Gold Signet" class="whatsapp-btn">Get Details</a>
+        </div>
+
+       
+    </div>
+</section>
+
+
+
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        At LUXORA, every piece is handcrafted with passion,
+        precision, and premium materials to define elegance.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Message"></textarea>
+        <button>Send Message</button>
+    </form>
+</section>
+
+<footer class="luxury-footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <h1 class="footer-logo">LUXORA</h1>
+            <p class="tagline">Crafting timeless elegance with gold & tradition.</p>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Luxora Fine Jewellery, Alappuzha</p>
+                <p>Kerala, India</p>
+                <p><strong>+91 8921276403</strong></p>
+                <p>support@luxora.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li>Custom Jewellery Design</li>
+                    <li>Gold Exchange & Valuation</li>
+                    <li>Professional Cleaning</li>
+                    <li>Bridal Consultancy</li>
+                </ul>
+            </div>
+
+            <div class="footer-col inquiry-form">
+                <input type="text" id="wa-name" placeholder="Your name (optional)">
+                <textarea id="wa-msg" placeholder="Type your request..."></textarea>
+                <button onclick="sendWhatsApp()" class="wa-btn">Send via WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Luxora Jewellery. All Rights Reserved.</p>
+        <p>Designed by <span class="designer">Opulent Nexus</span></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
